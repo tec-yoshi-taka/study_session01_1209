@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+body {
+  padding: 0 0 20px 0;
+  background: linear-gradient(0deg, #72b819 0%, #fefc5a 100%);
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+  background-color: #ffffff;
+}
+
+header h1 {
+  width: 600px;
+  height: 100px;
+}
+
+.imgArea {
+  width: 535px;
+  height: 401px;
+  margin: 20px auto 10px;
+  position: relative;
+}
+
+.imgArea ul {
+  position: relative;
+}
+.imgArea li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imgArea .imgArea-img01 {
+  opacity: 1;
+}
+.imgArea .imgArea-img02 {
+  opacity: 0;
+}
+.imgArea .imgArea-img03 {
+  opacity: 0;
+}
+.imgArea .imgArea-img04 {
+  opacity: 0;
+}
+.imgArea .imgArea-img05 {
+  opacity: 0;
+}
+.imgArea img {
+  display: block;
+  width: 535px;
+  height: auto;
+  border: 10px solid #fff;
+  box-shadow: 0px 0px 3px #ccc;
+}
+
+#prev {
+  color: #fff;
+  text-shadow: 3px 3px 6px #ccc;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  cursor: pointer;
+}
+
+#next {
+  color: #fff;
+  text-shadow: 3px 3px 6px #ccc;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 11px;
+  cursor: pointer;
+}
+
+nav ul {
+  width: 500px;
+  margin: 30px auto 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+}
+
+nav li img {
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px #999;
+}
+
+article {
+  width: 535px;
+  margin: 0 auto;
+}
+
+.message-title {
+  background: #76b500;
+  color: #fff;
+  padding: 8px 0 8px 14px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.message-area:nth-of-type(2) .message-title {
+  background: #85cc00;
+}
+
+.message-area:nth-of-type(3) .message-title {
+  background: #a8d454;
+}
+
+.message-contents {
+  padding: 12px;
+  border: 1px #7dbf00 solid;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  font-size: 14px;
+  height: 194px;
+}
+
+.message-contents.none {
+  height: 0;
+  padding: 0 12px;
+}
+
+.message-contents img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+footer {
+  margin: 30px 0 0 0;
+  padding: 10px 0 10px 6px;
+  background-color: #999999;
+  color: #ffffff;
+  font-size: 60%;
+  font-family: Verdana, Geneva, sans-serif;
+}
