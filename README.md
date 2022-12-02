@@ -1,6 +1,6 @@
 # JavaScript の基本と写真の変更
 
-[完成イメージ](https://tec-yoshi-taka.github.io/js_basic_finish/)
+[完成イメージ](https://tec-yoshi-taka.github.io/ja_basic_finish/)
 
 ---
 
