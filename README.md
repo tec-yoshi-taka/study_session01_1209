@@ -1,5 +1,7 @@
 # JavaScript の基本と写真の変更
 
+## 右クリックの新規タグで開いてください
+
 [完成イメージ](https://tec-yoshi-taka.github.io/ja_basic_finish/)
 
 ---
